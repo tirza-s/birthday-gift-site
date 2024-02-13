@@ -1,0 +1,75 @@
+body {
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    margin: 0;
+    background: #937050;
+    color: #a7d6f4;
+    cursor: pointer;
+
+}
+
+/* color pallete
+#E2A796, #FBC76F #a7d6f4 #937050
+*/
+
+h1,
+h2,
+h4,
+p {
+    text-shadow: 1px 2px 4px black;
+}
+
+/*  border-radius: 5px;
+    padding: 12px 15px; 
+    */
+
+#bday-age {
+    background: #E2A796;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px 5px;
+}
+
+#bday-date {
+    background: #E2A796;
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+#dog-image {
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #a7d6f4;
+}
+
+#gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 5px;
+}
+
+
+.gift-image {
+    background-image: url("images/gift.jpg");
+    background-size: cover;
+    border: 8px solid #E2A796;
+    border-radius: 5px;
+    /* margin auto to push the div element to the center */
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
