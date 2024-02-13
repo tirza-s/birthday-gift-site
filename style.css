@@ -2,9 +2,9 @@ body {
     font-family: "Karla", sans-serif;
     text-align: center;
     margin: 0;
-    background: #937050;
-    color: #a7d6f4;
+    background: linear-gradient(#6fc4eb, #ecbe7aca);
     cursor: pointer;
+    color: white;
 
 }
 
@@ -40,7 +40,7 @@ p {
 #dog-image {
     width: 250px;
     border-radius: 50%;
-    border: 6px solid #a7d6f4;
+    border: 6px solid #5cbde6;
 }
 
 #gift-section {
@@ -109,5 +109,6 @@ a:hover {
 }
 
 #footer {
+    font-size: 18px;
     margin-top: 40px;
 }
