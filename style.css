@@ -55,8 +55,9 @@ p {
     margin-top: 5px;
 }
 
-
-.gift-image {
+.gift-image,
+.applause,
+.cool-dog {
     border: 8px solid #E2A796;
     border-radius: 5px;
     /* margin auto to push the div element to the center */
@@ -69,11 +70,31 @@ p {
 .gift-image:hover {
     background-image: url("./images/dogGift.webp");
     background-size: cover;
-    transition: 1s ease-in-out;
+}
+
+.gift-image:hover,
+.applause:hover,
+.cool-dog:hover {
+    transition: 0.75s ease-in-out;
 }
 
 #header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.applause:hover {
+    background-image: url("images/minion.webp");
+    background-size: cover;
+}
+
+.reaction,
+.cool-glass {
+    margin-top: 35px;
+}
+
+.cool-dog:hover {
+    background-image: url("images/coolio.webp");
+    background-size: cover;
 }
