@@ -98,3 +98,16 @@ p {
     background-image: url("images/coolio.webp");
     background-size: cover;
 }
+
+a {
+    text-decoration: none;
+    color: #a7d6f4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    margin-top: 40px;
+}
